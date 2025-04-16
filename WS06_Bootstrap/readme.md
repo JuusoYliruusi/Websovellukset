@@ -1,0 +1,1 @@
+Tämä on Websivuston kehittäminen opintojakson työpajakansio. Tänne tehdään Resonsive desing harjoitukset.
