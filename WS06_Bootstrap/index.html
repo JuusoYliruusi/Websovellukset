@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <style>
       h1 {
         color: green;
       }
     </style>
     <title>Ensinmäinen HTML sivuni</title>
-    <link rel="stylesheet" href="styles/styles.css" >
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
 
   <body>
     <h1>Tervetuloa sivulleni</h1>
     <p>Tämä on lause</p>
-    <img src="minä.png" alt="Tässä on kuva minusta" >
+    <img src="minä.png" alt="Tässä on kuva minusta" />
 
     <h2>Lista harrastuksitani:</h2>
     <ul>
@@ -41,10 +45,10 @@
 
     <form>
       <label for="nimi">Nimi:</label>
-      <input type="text" id="nimi" name="nimi" ><br ><br >
+      <input type="text" id="nimi" name="nimi" /><br /><br />
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" ><br ><br >
-      <input type="Submit" value="Lähetä" >
+      <input type="email" id="email" name="email" /><br /><br />
+      <input type="Submit" value="Lähetä" />
     </form>
     <button class="transition-button">hover me</button>
     <div class="animation-box"></div>
@@ -56,7 +60,7 @@
       <li>Nelonen</li>
     </ul>
 
-    <img src="kuva.png" alt="Sample Image" class="filter-image" >
+    <img src="kuva.png" alt="Sample Image" class="filter-image" />
 
     <blockquote class="quote">
       Tämä on esimerkki lainatusta tekstistä.
@@ -79,23 +83,23 @@
 
     <div class="responsive-box">Resize to window to see effect</div>
 
-<div class="responsive-container">
-<div class="column">Column 1</div>
-<div class="column">Column 2</div>
-</div>
+    <div class="responsive-container">
+      <div class="column">Column 1</div>
+      <div class="column">Column 2</div>
+    </div>
 
-<img src="rolls.jpg" alt="responsive image" class="responsive-image">
+    <img src="rolls.jpg" alt="responsive image" class="responsive-image" />
 
-<div class="media-query-box">Resize the window to see the effect</div>
+    <div class="media-query-box">Resize the window to see the effect</div>
 
-<nav class="responsive-nav">
-<button class="menu-toggle">☰ Menu</button>
-<ul class="nav-list">
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
-</nav>
+    <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
 
     <header>
       <h1>Minun nettisivu</h1>
@@ -118,5 +122,58 @@
     <footer>
       <p>Copyright 2025</p>
     </footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12">Column 1</div>
+        <div class="col-md-4 col-12">Column 2</div>
+        <div class="col-md-4 col-12">Column 3</div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary">Click Me</button>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="card" style="width: 18rem">
+      <img src="Kortti.jpg" class="card-img-top" alt="Card Image" />
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">This is a simple card example using Bootstrap.</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+      This is a warning alert—check it out!
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
